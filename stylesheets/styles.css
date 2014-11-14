@@ -19,9 +19,8 @@ body {
 }
 
 .wrapper {
-  width: 640px;
+  width: 840px;
   margin: 0 auto;
-  background: #DEDEDE;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
@@ -176,6 +175,7 @@ header ul a strong {
 
 section {
   padding: 15px 20px;
+  margin: 10px 0 10px;
   font-size: 15px;
   border-top: 1px solid #fff;
   background: -webkit-gradient(linear, 50% 0%, 50% 700, color-stop(0%, #fafafa), color-stop(100%, #dedede));
@@ -199,8 +199,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
-p, ul, ol, table, pre, dl {
+ol, table, pre, dl {
   margin: 0 0 20px;
+}
+
+p, ul{
+  margin: 0 0 0px;
 }
 
 h1, h2, h3 {
