@@ -37,7 +37,8 @@
           <ul class="category-list">
                 <li class="item">属性学习的本质是一个什么样的问题</li>
                 <ul class="category-list">
-                    <li class="item">Multi-task</li>
+                    <li class="item">每个属性分类器独立训练 <a href="#Paper1">[1]</a></li>
+                    <li class="item">Multi-task <a href="#Paper2">[2]</a></li>
                     <li class="item">Multi-label</li>
                 </ul>
 
@@ -53,10 +54,32 @@
         </div>
 
         <section>
-          <h4>Paper1:Describing Objects by their Attributes, CVPR 2009</h4>
-          <p><a href="http://docs.mathjax.org/en/latest/start.html">MathJax</a></p>
-          <p>display:$$dist(x,y)=\sum_{d=1}^{D}(x_d-y_d)^2$$</p>
-          <p>inline:\(y=x\)</p>
+          <h4 id="Paper1">Paper1:Describing Objects by their Attributes, CVPR 2009</h4>
+            <ul class="category-list">
+                <li class="item">问题：
+                  <p>1，描述物体而不是简单的识别</p>
+                  <p>2，属性不应该依赖于类别，不同类别的物体应该共享属性<p>
+                  <p>3，属性之间的相关性：训练数据与测试数据属性相关不统一</p>
+                </li>
+
+                <li class="item">贡献：</li>
+                  <p>1，定义属性：语义属性和非语义属性（增强判别性）</p>
+                  <p>2，特征选择解决属性相关性<p>
+                  <p>3，aPascal-aYahoo数据库</p>
+                <li class="item">方法：</li>
+                  <p>1，非语义属性学习策略：将部分类别随机分为两类，重复几万次，并根据在验证集上的分类结果选取1000个较好的分类器。</p>
+                  <p>2，跨类别的属性学习，即在A,B,C类中训练属性分类器，在D类上测试。<p>
+                  <p>3，特征选择：选择那些可以很好区分有轮子的车和无轮子的车的特征。</p>
+                <li class="item">实验（提供代码）：</li>
+                  <p>1，新类别识别</p>
+                  <p>2，特征选择对属性相关性的效果<p>
+                  <p>3，跨数据库属性预测：训练在Pascal，测试在Yahoo</p>
+            </ul>
+        </section>
+
+        <p></p>
+        <section>
+          <h4 id="Paper2">Paper2:Decorrelating Semantic Visual Attributes by Resisting the Urge to Share, CVPR 2014</h4>
         </section>
 
         <p></p>
@@ -65,6 +88,7 @@
           <p><a href="http://docs.mathjax.org/en/latest/start.html">MathJax</a></p>
           <p>display:$$dist(x,y)=\sum_{d=1}^{D}(x_d-y_d)^2$$</p>
           <p>inline:\(y=x\)</p>
+          <p>\(\frac{{dy}}{{dx}}\)</p>
         </section>
 
         
