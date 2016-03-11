@@ -23,11 +23,17 @@ Make the words "Of course" italic, and the words "a little moxie" bold: "_Of cou
 Make the words "This is unbelievable" both bold and italic: If you're thinking to yourself, **_This is unbelievable_**, you'd probably be right.
 
 #Header one
+
 ##Header two
+
 ###Header three
+
 ####Header four
+
 #####Header five
+
 ######Header six
+
 
 [Search for it.](www.google.com)
 
@@ -48,3 +54,10 @@ Make the words "This is unbelievable" both bold and italic: If you're thinking t
 
 [Second Father]: http://octodex.github.com/images/foundingfather_v2.png
 
+
+
+**Blockquotes**
+
+I read this interesting quote the other day:
+
+>"Her eyes had called him and his soul had leaped at the call. To live, to err, to fall, to triumph, to recreate life out of life!"
