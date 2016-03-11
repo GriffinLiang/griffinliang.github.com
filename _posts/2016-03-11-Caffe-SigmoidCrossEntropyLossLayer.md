@@ -24,13 +24,13 @@ This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer 
 
 **Functions:**
 
-**1. Reshape:**
+ **1. Reshape:**
 
-2. **LayerSetUp:**
+ **2. LayerSetUp:**
 
-3. **Forward_cpu:**
+ **3. Forward_cpu:**
 
-4. **Backward_cpu:**
+ **4. Backward_cpu:**
 
 ```cpp
 
