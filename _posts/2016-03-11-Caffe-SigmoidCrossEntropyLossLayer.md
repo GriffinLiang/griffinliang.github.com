@@ -22,7 +22,9 @@ This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer 
  1. $$(1\times 1\times 1\times 1)$$ the computed cross-entropy loss
 
 
-1. **Reshape:**
+**Functions:**
+
+**1. Reshape:**
 
 2. **LayerSetUp:**
 
