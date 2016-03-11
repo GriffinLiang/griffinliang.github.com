@@ -29,7 +29,7 @@ avatar: "/img/LovelyDog.JPG"
 navbar-links:
   Home: ""
   About Me: "aboutme"
-  About Her: "aboutme"
+  # About Her: "aboutme"
   Scientific home: "http://vipl.ict.ac.cn/members/kmliang"
   
 # --- Footer options --- #
