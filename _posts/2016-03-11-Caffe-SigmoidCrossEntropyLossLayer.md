@@ -18,6 +18,18 @@ This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer 
  1. $$(N\times C\times H\times W)$$ the scores $$x\in [-\infty, \infty]$$. Map the input into probability predictions $$\tilde{p_n}=\sigma(x_n)\in [0,1]$$
  2. $$(N\times C\times H\times W)$$ the targets $$y \in [0,1] $$
 
+* top blob vector (length 1)
+ 1. $$(1\times 1\times 1\times 1)$$ the computed cross-entropy loss
+
+
+1. **Reshape:**
+
+2. **LayerSetUp:**
+
+3. **Forward_cpu:**
+
+4. **Backward_cpu:**
+
 ```cpp
 
 #include <vector>
