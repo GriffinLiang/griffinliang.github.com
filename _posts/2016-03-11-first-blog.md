@@ -90,6 +90,4 @@ He was baby tuckoo. The moocow came down the road where Betty Byrne lived: she s
 
  两个空格+换行
 
-**Congratulations**
-
- http://markdowntutorial.com/conclusion/
+[**Congratulations**](http://markdowntutorial.com/conclusion/)
