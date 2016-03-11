@@ -7,6 +7,10 @@ subtitle: Loss layer
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
+
+The definition of cross-entropy (logistic) loss: $$E = \frac{-1}{N} \sum_{n=1}^{N} p_n log \tilde{p_n} + (1-p_n)log(1-\tilde{p_n})$$
+
+
 ```cpp
 
 #include <vector>
