@@ -8,8 +8,15 @@ subtitle: Loss layer
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 
-The definition of cross-entropy (logistic) loss: $$E = \frac{-1}{N} \sum_{n=1}^{N} p_n log \tilde{p_n} + (1-p_n)log(1-\tilde{p_n})$$
+The definition of cross-entropy (logistic) loss: $$E = -\frac{1}{N} \sum_{n=1}^{N} p_n log \tilde{p_n} + (1-p_n)log(1-\tilde{p_n}).$$
 
+This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer as its gradient computation is more numerically stable. At test time, this layer can be replaced simply by a SigmoidLayer.
+
+**Paramters:**
+
+* bottom blob vector
+ 1. $$(N\times C\times H\times W)$$ the scores $$x\in [-\infty, \infty]$$. Map the input into probability predictions $$\tilde{p_n}=\sigma(x_n)\in [0,1]$$
+ 2. $$(N\times C\times H\times W)$$ the targets $$y \in [0,1] $$
 
 ```cpp
 
