@@ -1,120 +1,46 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Griffinliang.github.com by GriffinLiang</title>
+---
+layout: page
+title: My website
+subtitle: This is where I will tell my friends way too much about me
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <script src="../../javascripts/html5media.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <script type="text/javascript"
-      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="without-description">
-        <h1>Kongming Liang</h1>
-        <p></p>
-        <p class="view"><a href="https://github.com/GriffinLiang">View the Project on GitHub <small>GriffinLiang</small></a></p>
-        <ul>
-          <li class="single"><a href="https://github.com/GriffinLiang/griffinliang.github.com">View Me On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-<section>
-  <h3>
-  <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to Kongming Liang's Pages.</h3>
-  <p ><img src="images/head.jpg"></p>
-  <p>This is my website and welcome. I may write down my everyday thoughts.</p>
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
+	
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}  
+    </a>
+
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
   
-  <section>
-        Content
-        <ul class="category-list">
-          <li class="item">Conference</li>
-            <ul class="category-list">
-              <li class="item">
-                <a href="file://10.107.0.103/sharedDocs/All/conference/CVPR2014/data/toc.htm">CVPR2014</a>  
-              </li>
-              <li class="item">
-                ICML2014
-                <a href="http://icml.cc/2014/index/article/12.htm"> Tracks</a>
-                and
-                <a href="http://icml.cc/2014/index/article/15.htm">Papers</a>
-              </li>
-            </ul>
-
-          <li class="item">Research Interest</li>
-            <ul class="category-list">
-              <li class="item">
-                <a href="pages/Blog/multi_label.html">Multi-Label</a>  
-              </li>
-              <li class="item">
-                <p>Convex Optimization</p>
-                <ul class="category-list">
-                <li class="item">
-                  <a href="http://stronglyconvex.com/blog/gradient-descent.html">Gradient Descent</a>
-                </li>
-                <li class="item">
-                  <a href="http://stronglyconvex.com/blog/sparse-l2.html">Stochastic Gradient Descent and Sparse L2 regularization</a> 
-                </li>
-                </ul>
-              </li>
-            </ul>
-
-          <li class="item">Scientific Note</li>
-            <ul class="category-list">
-              <li class="item">
-                <a href="pages/Blog/RNN.html">Recurrent Neural Network</a>  
-              </li>
-            </ul>
-          
-          <li class="item">Engineering</li>
-            <ul class="category-list">
-              <li class="item">
-                <a href="pages/Blog/python.html">Python</a>  
-              </li>
-            </ul>
-          
-          <li class="item">Personal</li>
-            <ul class="category-list">
-              <li class="item">
-                <a href="pages/Personal/mengmeng.html">Mengmeng(懵懵)</a>  
-              </li>
-            </ul>
-
-          <li class="item">Ipython</li>
-            <ul class="category-list">
-              <li class="item">
-                <a href="pages/Personal/Markdown Grammar.ipynb">Mengmeng</a>  
-              </li>
-            </ul>
-        </ul>
-      </section>
-
-  <div style="height:100px">    
-  <div style="display:inline;  float:left; width:500px"><h3>
-  <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact
-  </h3>
-  <p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:liangkongming@gmail.com">liangkongming@gmail.com</a> and we’ll help you sort it out.</p>
-  </div>
-
-  <!-- <div style="display:inline;  float:right">
-  <div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://griffinliang.github.io/', 'user' : 1151750, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2014-11-19', 'lang' : 'zh', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www4.clustrmaps.com/user/7ed119306"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/griffinliang.github.io--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
-  </div>  
-  </div> -->
-
-</section>
+    <div class="post-entry">
+      {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
+	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
     </div>
-    <footer>
-      <p>Be happy every day, dreamynut</p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
+  
+   </article>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
