@@ -45,7 +45,7 @@ void SigmoidCrossEntropyLossLayer<Dtype>::Reshape(
   LossLayer<Dtype>::Reshape(bottom, top);
   CHECK_EQ(bottom[0]->count(), bottom[1]->count()) <<
       "SIGMOID_CROSS_ENTROPY_LOSS layer inputs must have the same count.";
-  sigmoid_layer_->Reshape(sigmoid_bottom_vec_, sigmoid_top_vec_);
+  sigmoid_layer_->Reshape(sigmoid_bottom_vec_, sigmoid_top_vec_); // No implementation of Reshape for sigmoid_layer so this function is called from neuron_layer.cpp
 }
 ```
 
@@ -59,6 +59,16 @@ void LossLayer<Dtype>::Reshape(
       << "The data and label should have the same number.";
   vector<int> loss_shape(0);  // Loss layers output a scalar; 0 axes.
   top[0]->Reshape(loss_shape);
+}
+```
+
+neuron_layer.cpp
+
+```cpp
+template <typename Dtype>
+void NeuronLayer<Dtype>::Reshape(const vector<Blob<Dtype>*>& bottom,
+      const vector<Blob<Dtype>*>& top) {
+  top[0]->ReshapeLike(*bottom[0]);
 }
 ```
 
