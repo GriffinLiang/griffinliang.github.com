@@ -40,7 +40,7 @@ This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer 
   1. 
 
  * LayerSetUp
- 
+
 ```cpp
 template <typename Dtype>
 void SigmoidCrossEntropyLossLayer<Dtype>::LayerSetUp(
@@ -49,8 +49,8 @@ void SigmoidCrossEntropyLossLayer<Dtype>::LayerSetUp(
   sigmoid_bottom_vec_.clear();
   sigmoid_bottom_vec_.push_back(bottom[0]);
   sigmoid_top_vec_.clear();
-  sigmoid_top_vec_.push_back(sigmoid_output_.get());
-  sigmoid_layer_->SetUp(sigmoid_bottom_vec_, sigmoid_top_vec_);
+  sigmoid_top_vec_.push_back(sigmoid_output_.get()); // Returns the stored pointer.
+  sigmoid_layer_->SetUp(sigmoid_bottom_vec_, sigmoid_top_vec_); // There is no implemetation for SetUp function of SigmoidCrossEntropyLossLayer and its base class NeuronLayer. So the function is called from Layer.cpp
 }
 ```
 
