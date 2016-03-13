@@ -34,10 +34,34 @@ This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer 
   vector<Blob<Dtype>*> sigmoid_top_vec_;
 ```
 
+
+loss_layer.cpp
+
+```cpp
+template <typename Dtype>
+void LossLayer<Dtype>::Reshape(
+    const vector<Blob<Dtype>*>& bottom, const vector<Blob<Dtype>*>& top) {
+  CHECK_EQ(bottom[0]->num(), bottom[1]->num())
+      << "The data and label should have the same number.";
+  vector<int> loss_shape(0);  // Loss layers output a scalar; 0 axes.
+  top[0]->Reshape(loss_shape);
+}
+```
+
 **Functions:**
 
  * Reshape
-  1. 
+
+```cpp
+template <typename Dtype>
+void SigmoidCrossEntropyLossLayer<Dtype>::Reshape(
+    const vector<Blob<Dtype>*>& bottom, const vector<Blob<Dtype>*>& top) {
+  LossLayer<Dtype>::Reshape(bottom, top);
+  CHECK_EQ(bottom[0]->count(), bottom[1]->count()) <<
+      "SIGMOID_CROSS_ENTROPY_LOSS layer inputs must have the same count.";
+  sigmoid_layer_->Reshape(sigmoid_bottom_vec_, sigmoid_top_vec_);
+}
+```
 
  * LayerSetUp
 
