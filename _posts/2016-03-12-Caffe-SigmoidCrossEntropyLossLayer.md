@@ -10,7 +10,10 @@ subtitle: Loss layer
 
 The definition of cross-entropy (logistic) loss: $$E = -\frac{1}{N} \sum_{n=1}^{N} p_n log \tilde{p}_n + (1-p_n)log(1-\tilde{p}_n),$$ where \\( \tilde{p}_n = \frac{1}{1+e^{-x_n}} .\\) 
 
-The final loss for \\( x_n \\) is: $$ x_n(p_n -1)-log(1+e^{-x_n}).$$ However, the range for \\( e^x \in (1,\infty]\\) when \\(x>0\\). To avoid this, the aurthor uses \\(-log(1+e^{-x_n})=log\frac{1}{1+e^{-x_n}}=log \frac{e^{x_n}}{e^{x_n}+1}=x_n-log(1+e^{x_n}) \\)to change the range into (0,1).
+The loss for \\( x_n \\) is: $$ x_n(p_n -1)-log(1+e^{-x_n}).$$ However, the range for \\( e^x \in (1,\infty]\\) when \\(x>0\\). To avoid this, the aurthor uses \\(-log(1+e^{-x_n})=log\frac{1}{1+e^{-x_n}}=log \frac{e^{x_n}}{e^{x_n}+1}=x_n-log(1+e^{x_n}) \\)to change the range into (0,1).
+
+The finnal cross-entropy (logistic) loss: $$E = -\frac{1}{N} \sum_{n=1}^{N} x_n(p_n - (x_n \geq 0)-log(1+e^{x_n - 2x(x \geq 0)})).$$ 
+
 
 This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer as its gradient computation is more numerically stable. At test time, this layer can be replaced simply by a SigmoidLayer.
 
