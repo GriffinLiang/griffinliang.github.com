@@ -53,7 +53,6 @@ void SigmoidCrossEntropyLossLayer<Dtype>::Reshape(
 
 ```cpp
 // loss_layer.cpp
-
 template <typename Dtype>
 void LossLayer<Dtype>::Reshape(
     const vector<Blob<Dtype>*>& bottom, const vector<Blob<Dtype>*>& top) {
@@ -65,8 +64,7 @@ void LossLayer<Dtype>::Reshape(
 ```
 
 ```cpp
-** neuron_layer.cpp **
-
+// neuron_layer.cpp
 template <typename Dtype>
 void NeuronLayer<Dtype>::Reshape(const vector<Blob<Dtype>*>& bottom,
       const vector<Blob<Dtype>*>& top) {
@@ -89,9 +87,8 @@ void SigmoidCrossEntropyLossLayer<Dtype>::LayerSetUp(
 }
 ```
 
-loss_layer.cpp
-
 ```cpp
+// loss_layer.cpp
 template <typename Dtype>
 void LossLayer<Dtype>::LayerSetUp(
     const vector<Blob<Dtype>*>& bottom, const vector<Blob<Dtype>*>& top) {
