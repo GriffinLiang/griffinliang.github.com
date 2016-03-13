@@ -8,13 +8,9 @@ subtitle: Loss layer
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 
-The definition of cross-entropy (logistic) loss: $$E = -\frac{1}{N} \sum_{n=1}^{N} p_n log \tilde{p}_n + (1-p_n)log(1-\tilde{p}_n)$$
+The definition of cross-entropy (logistic) loss: $$E = -\frac{1}{N} \sum_{n=1}^{N} p_n log \tilde{p}_n + (1-p_n)log(1-\tilde{p}_n),$$ where \\( \tilde{p}_n = \frac{1}{1+e^{-x_n}} .\\) 
 
-where \\( \tilde{p}_n = \frac{1}{1+e^{-x_n}} .\\) 
-
-The final loss for \\( x_n \\) is: $$ x_n(p_n -1)-log(1+e^{-x_n}).$$ 
-
-However, the range for \\( e^x \in (1,\infty]\\) when \\(x>0\\). To avoid this, the aurthor use \\(-log(1+e^{-x_n})=log\frac{1}{1+e^{-x_n}}=\frac{e^{x_n}}{e^{x_n}+1} \\)
+The final loss for \\( x_n \\) is: $$ x_n(p_n -1)-log(1+e^{-x_n}).$$ However, the range for \\( e^x \in (1,\infty]\\) when \\(x>0\\). To avoid this, the aurthor use \\(-log(1+e^{-x_n})=log\frac{1}{1+e^{-x_n}}=\frac{e^{x_n}}{e^{x_n}+1} \\)
 
 This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer as its gradient computation is more numerically stable. At test time, this layer can be replaced simply by a SigmoidLayer.
 
