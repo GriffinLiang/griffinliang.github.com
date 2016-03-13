@@ -52,7 +52,7 @@ void SigmoidCrossEntropyLossLayer<Dtype>::Reshape(
    
 
 ```cpp
-** loss_layer.cpp **
+"loss_layer.cpp"
 
 template <typename Dtype>
 void LossLayer<Dtype>::Reshape(
