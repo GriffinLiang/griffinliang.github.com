@@ -17,7 +17,7 @@ The finnal cross-entropy (logistic) loss: $$E = -\frac{1}{N} \sum_{n=1}^{N} x_n(
 
 This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer as its gradient computation is more numerically stable. At test time, this layer can be replaced simply by a SigmoidLayer.
 
-For the gradient, \\( \frac{\partial L_n} {\partial x_n} = p_n \frac{1}{\tilde{p}_n}\frac{\partial \tilde{p}_n}{\partial x_n} + (1-p_n)\frac{1}{1-\tilde{p}_n} \frac{\partial (1-\tilde{p}_n)}{\partial x_n}
+For the gradient, \\( \frac{\partial L_n} {\partial x_n} = p_n \frac{1}{\tilde{p}_n}\frac{\partial \tilde{p}_n}{\partial x_n} + (1-p_n)\frac{1}{1-\tilde{p}_n} \frac{\partial (1-\tilde{p}_n)}{\partial x_n} \\)
 
 **Paramters:**
 
