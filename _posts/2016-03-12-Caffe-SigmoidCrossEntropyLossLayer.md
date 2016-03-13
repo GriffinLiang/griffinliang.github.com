@@ -20,7 +20,7 @@ This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer 
 For the gradient, \\( \frac{\partial L_n} {\partial x_n} = (p_n-1)+\frac{e^{-x_n}}{1+e^{-x_n}} = p_n - \tilde{p}_n.\\)
 
 **PS:** 
-InfogainLoss is a generalized softmax by considering the label relationship. For example, if loss of predicting an image of dog as cat should be smaller than chair. Infogain matrix $$ H $$ is used to reflect to label relationship. This can be provided as the third bottom blob input or provided as the infogain_mat in the InfogainLossParameter. If $$ H = I $$, this layer is equivalent to the Softmax Loss.
+InfogainLoss is a generalized softmax by considering the label relationship. For example, if loss of predicting an image of dog as cat should be smaller than chair. Infogain matrix $$ H \in  \mathbb{R}^{K \times K} $$ is used to reflect to label relationship where K is the number of categories. This can be provided as the third bottom blob input or provided as the infogain_mat in the InfogainLossParameter. If $$ H = I $$, this layer is equivalent to the Softmax Loss.
 
 **Paramters:**
 
