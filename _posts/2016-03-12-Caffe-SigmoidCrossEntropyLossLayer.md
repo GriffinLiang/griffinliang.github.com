@@ -32,6 +32,36 @@ This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer 
   vector<Blob<Dtype>*> sigmoid_bottom_vec_;
   /// top vector holder to call the underlying SigmoidLayer::Forward
   vector<Blob<Dtype>*> sigmoid_top_vec_;
+  /**
+   * @brief Computes the sigmoid cross-entropy loss error gradient w.r.t. the
+   *        predictions.
+   *
+   * Gradients cannot be computed with respect to the target inputs (bottom[1]),
+   * so this method ignores bottom[1] and requires !propagate_down[1], crashing
+   * if propagate_down[1] is set.
+   *
+   * @param top output Blob vector (length 1), providing the error gradient with
+   *      respect to the outputs
+   *   -# @f$ (1 \times 1 \times 1 \times 1) @f$
+   *      This Blob's diff will simply contain the loss_weight* @f$ \lambda @f$,
+   *      as @f$ \lambda @f$ is the coefficient of this layer's output
+   *      @f$\ell_i@f$ in the overall Net loss
+   *      @f$ E = \lambda_i \ell_i + \mbox{other loss terms}@f$; hence
+   *      @f$ \frac{\partial E}{\partial \ell_i} = \lambda_i @f$.
+   *      (*Assuming that this top Blob is not used as a bottom (input) by any
+   *      other layer of the Net.)
+   * @param propagate_down see Layer::Backward.
+   *      propagate_down[1] must be false as gradient computation with respect
+   *      to the targets is not implemented.
+   * @param bottom input Blob vector (length 2)
+   *   -# @f$ (N \times C \times H \times W) @f$
+   *      the predictions @f$x@f$; Backward computes diff
+   *      @f$ \frac{\partial E}{\partial x} =
+   *          \frac{1}{n} \sum\limits_{n=1}^N (\hat{p}_n - p_n)
+   *      @f$
+   *   -# @f$ (N \times 1 \times 1 \times 1) @f$
+   *      the labels -- ignored as we can't compute their error gradients
+   */
 ```
 
 **Functions:**
