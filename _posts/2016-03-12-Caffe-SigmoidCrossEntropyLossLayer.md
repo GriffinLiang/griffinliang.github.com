@@ -22,6 +22,7 @@ This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer 
  1. $$(1\times 1\times 1\times 1)$$ the computed cross-entropy loss
 
 **Members:**
+
 ```cpp
   /// The internal SigmoidLayer used to map predictions to probabilities.
   shared_ptr<SigmoidLayer<Dtype> > sigmoid_layer_;
