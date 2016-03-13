@@ -8,23 +8,35 @@ subtitle: Loss layer
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 
-The definition of cross-entropy (logistic) loss: $$E = -\frac{1}{N} \sum_{n=1}^{N} p_n log \tilde{p_n} + (1-p_n)log(1-\tilde{p_n}).$$
+The definition of cross-entropy (logistic) loss: $$E = -\frac{1}{N} \sum_{n=1}^{N} p_n log \tilde{p}_n + (1-p_n)log(1-\tilde{p}_n).$$
 
 This layer is implemented rather than separate SigmoidLayer + CrossEntropyLayer as its gradient computation is more numerically stable. At test time, this layer can be replaced simply by a SigmoidLayer.
 
 **Paramters:**
 
 * bottom blob vector
- 1. $$(N\times C\times H\times W)$$ the scores $$x\in [-\infty, \infty]$$. Map the input into probability predictions $$\tilde{p_n}=\sigma(x_n)\in [0,1]$$
+ 1. $$(N\times C\times H\times W)$$ the scores $$x\in [-\infty, \infty]$$. Map the input into probability predictions $$\tilde{p}_n=\sigma(x_n)\in [0,1]$$
  2. $$(N\times C\times H\times W)$$ the targets $$y \in [0,1] $$
 
 * top blob vector (length 1)
  1. $$(1\times 1\times 1\times 1)$$ the computed cross-entropy loss
 
+**Members:**
+```cpp
+  /// The internal SigmoidLayer used to map predictions to probabilities.
+  shared_ptr<SigmoidLayer<Dtype> > sigmoid_layer_;
+  /// sigmoid_output stores the output of the SigmoidLayer.
+  shared_ptr<Blob<Dtype> > sigmoid_output_;
+  /// bottom vector holder to call the underlying SigmoidLayer::Forward
+  vector<Blob<Dtype>*> sigmoid_bottom_vec_;
+  /// top vector holder to call the underlying SigmoidLayer::Forward
+  vector<Blob<Dtype>*> sigmoid_top_vec_;
+```
 
 **Functions:**
 
  * Reshape
+  1. 
 
  * LayerSetUp
 
