@@ -10,7 +10,7 @@ subtitle: Loss layer
 
 The definition of cross-entropy (logistic) loss: $$E = -\frac{1}{N} \sum_{n=1}^{N} p_n log \tilde{p}_n + (1-p_n)log(1-\tilde{p}_n),$$ where \\( \tilde{p}_n = \frac{1}{1+e^{-x_n}} .\\) 
 
-The loss for \\( x_n \\) is: $$ L_n = x_n(p_n -1)-log(1+e^{-x_n}).$$ However, the range for \\( e^{-x_n} \in (1,\infty]\\) when $$ x_n<0 $$. To avoid this, the author uses \\(-log(1+e^{-x_n})=log\frac{1}{1+e^{-x_n}}=log \frac{e^{x_n}}{e^{x_n}+1}=x_n-log(1+e^{x_n}) \\) to change the range into (0,1).
+The loss for \\( x_n \\) is: $$ L_n = x_n(p_n -1)-log(1+e^{-x_n}).$$ However, the range for \\( e^{-x_n} \in (1,\infty)\\) when $$ x_n<0 $$. To avoid this, the author uses \\(-log(1+e^{-x_n})=log\frac{1}{1+e^{-x_n}}=log \frac{e^{x_n}}{e^{x_n}+1}=x_n-log(1+e^{x_n}) \\) to change the range into (0,1).
 
 The final cross-entropy (logistic) loss: $$E = -\frac{1}{N} \sum_{n=1}^{N} x_n(p_n - (x_n \geq 0)-log(1+e^{x_n - 2x_n(x_n \geq 0)})).$$ 
 
