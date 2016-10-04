@@ -6,6 +6,7 @@ subtitle: Book Reading
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
+
 ##### 学习方法
 - 尽量杜绝社交网站的影响
 - 用笔记本监控自己的学习：记录下每天都做了什么事情，整体学习计划，记得回顾
