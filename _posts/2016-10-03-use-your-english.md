@@ -30,5 +30,14 @@ subtitle: Book Reading
   - 平时每天保证1.5-2个小时的大块时间，周末要保证3个小时以上
   - 作息习惯不要因为假期改变，平时是6～8点学习，周末就可以是6～9点或者6～10点
   - 零碎时间要利用好（见下文）
+  
+#### 资源
+ - ESLPOD: English as a Second Language Podcast, **Website**
+   - Introduction to the United States
+   - A Day in the Life of Jeff
+   - A Day in the Life of Lucy
+   - Interview Questions Answered
+   - English for Business Meetings
+   - Using English at Work
 
 
