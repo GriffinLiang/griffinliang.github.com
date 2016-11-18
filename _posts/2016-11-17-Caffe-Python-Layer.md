@@ -9,6 +9,6 @@ subtitle: Python layer
 
 A very good tool to insert python code into Caffe.
 
-You can refer to the examples provided by BLVC to learn how to use it.
+You can refer to the examples provided by BVLC to learn how to use it.
 
-Two factors should be mention: *.py filename -> module; class name in *.py -> layer
+Two factors should be mentioned: "*.py filename" is "module"; "class name in *.py" is "layer".
