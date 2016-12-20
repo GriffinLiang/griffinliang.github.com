@@ -14,5 +14,8 @@ When can x influence y?
 
 Yes: x->y; x<-y; x->w->y; x<-w<-y; x<-w->y.
 
-No: x->w<-y
+No: x->w<-y (v-structure).
+
+Active Trail: a trail has no v-structure.
+
 
