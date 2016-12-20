@@ -20,4 +20,6 @@ No: x->w<-y (v-structure).
 1. a trail has no v-structure
 2. any v-structure is observed and no other is observed.
 
+<kbd>Ctrl+[</kbd> and <kbd>Ctrl+]</kbd>
 
+---
