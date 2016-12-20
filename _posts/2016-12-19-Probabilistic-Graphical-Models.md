@@ -14,7 +14,7 @@ subtitle: By Daphne Koller on Coursera
 
 >Yes: $$ x \rightarrow y; x \leftarrow y; x \leftarrow w \leftarrow y; x \rightarrow w \rightarrow y; x \leftarrow w \rightarrow y $$.
 
->No: x \rightarrow w \leftarrow y (v-structure).
+>No: $$ x \rightarrow w \leftarrow y$$ (v-structure).
 
 #### Active Trail: 
 1. a trail has no v-structure
