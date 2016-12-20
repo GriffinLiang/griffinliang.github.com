@@ -9,6 +9,7 @@ subtitle: By Daphne Koller on Coursera
 ## Lecture One
 
 ---
+
 ### Flow of Probabilistic Influence
 
 #### When can x influence y?  
