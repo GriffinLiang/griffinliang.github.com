@@ -10,7 +10,7 @@ subtitle: By Daphne Koller on Coursera
 
 ### Flow of Probabilistic Influence
 
->When can x influence y?  
+#### When can x influence y?  
 >Yes: $$ x \rightarrow y; x \leftarrow y; x \leftarrow w \leftarrow y; x \rightarrow w \rightarrow y; x \leftarrow w \rightarrow y $$.  
 >No: $$ x \rightarrow w \leftarrow y$$ (v-structure).
 
