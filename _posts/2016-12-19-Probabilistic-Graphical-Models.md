@@ -16,6 +16,9 @@ Yes: x->y; x<-y; x->w->y; x<-w<-y; x<-w->y.
 
 No: x->w<-y (v-structure).
 
-Active Trail: a trail has no v-structure.
+Active Trail: 
+
+1) a trail has no v-structure 
+2) any v-structure is observed and no other is observed.
 
 
