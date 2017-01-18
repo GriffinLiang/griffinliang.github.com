@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maltab Plot
+title: Matlab Plot
 subtitle: scientific writing
 ---
 
@@ -8,8 +8,7 @@ subtitle: scientific writing
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 
-Co-occurence Matrix:
-
+#### Co-occurence Matrix: ####
 ![Image of co matrix](../img/aPascal_category_attribute.png)
 
 ```python
