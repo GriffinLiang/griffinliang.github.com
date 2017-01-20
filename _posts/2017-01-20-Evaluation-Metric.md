@@ -18,7 +18,7 @@ F1 score is a harmonic mean of precision and recall. $$F_1=2\cdot\frac{precision
 $$Recall=\frac{\sum_{i=1}^M}{TP_i}{\sum_{i=1}^M(TP_i+FP_i)}, Precision=\frac{\sum_{i=1}^M}{TP_i}{\sum_{i=1}^M(TP_i+FN_i)}.$$
 
 
-$$F_{micro}=\F_1=2\cdot\frac{precision \cdot recall}{precision+recall}$$
+$$F_{micro}=2\cdot\frac{precision \cdot recall}{precision+recall}$$
 
 Micro-averaged F-measure gives equal weight to each document and is therefore considered as an average over all the document/category pairs. It tends to be dominated by the classifier’s performance on common categories.
 
