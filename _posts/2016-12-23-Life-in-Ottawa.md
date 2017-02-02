@@ -12,6 +12,10 @@ I write this post to memory the life living in Ottawa.
 
 #### My experience in English Studying Group ####
 
+Feb 1st, 2017
+
+Today I talked to Danielle first. And then another person join us. So most of the time we practiced pronunciation. I think the key point is to speak the word entirely and do not ignore any part of the word. Next time I think I should have a schdule of which topics should be taken considerred and prepare some materials (e.g. pictures, personal information) for introducing myself.
+
 Jan 25, 2017
 
 Well, this is the second time for me to join the english conversation group. Today I met Joan, a kind lady who moved to Ottawa two years ago. She has two children, one daughter and one son. Her daughter works for children hospital with focusing on mental health. And Joan now has two grandchildren. The younger one is a girl who is almost one year. And the other one is a boy and he is almost two years and a half. I ask how the two children get along with each other. She said now everything is fine but before that the boy may hit his sister or grab something from her. Then we talk about her son in law, and she told me she likes him and thinks that he is a good person and can fix the house and many other stuff. This may be a little different from china, since we usually care more about money or degree. It is very pleasant for me to get the chance to know a person who may grow up in a very different. Thank you Joan for sharing your life story with me.
