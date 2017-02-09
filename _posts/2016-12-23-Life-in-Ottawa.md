@@ -14,7 +14,9 @@ I write this post to memory the life living in Ottawa.
 
 Feb 7, 2017
 
-LYNDA, a lawyer, a mother of two children and a female who loves sports a lot. While talking, you can see that her love for the children. Last week, she told her son not to ski in the trees and not to follow his friends who always ski fast. However, bad thing happend. His son broke his leg. She a happy woman and moves to a lot of places (even America) during her life. She grew up in Ottawa and selected the university which is away from home to be independent. She does a lot of sports like skiing, skating. It must be very exciting to attend university by skating on the river. Moreover, she suggested me to join the winter lude to see sculptures in Confederation Park. I enjoy talking to you and appreciate sharing the time with you!
+LYNDA, a lawyer, a mother of two children and a female who loves sports a lot. While talking, you can see her love for the children. Last week, she told her son not to ski in the trees and not to follow his friends who always ski fast. However, bad thing happend. His son hit on a tree on the first trial and broke his leg. She said to me a mother usually has a prominent foresight. She also told me about her daughter who is a vegeterian. Her daughter is a the fourth year university student whose major is art (maybe not accurate). Though she got a driver license, she still has trouble to drive a car. Maybe artists do not drive car by themselves. Back to LYNDA, she is a happy woman and moves to a lot of places (even America) during her life. She grew up in Ottawa and selected the university which is away from home to be independent. She does a lot of sports like skiing, skating and riding bicycle. It must be very exciting to go to university by skating on the river. Moreover, she suggested me to join the winter lude to see the sculptures in Confederation Park. I enjoy talking to you and appreciate your sharing the time with me!
+
+***
 
 Feb 1st, 2017 
 
