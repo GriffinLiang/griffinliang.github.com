@@ -12,9 +12,15 @@ I write this post to memory the life living in Ottawa.
 
 #### My experience in English Studying Group ####
 
+Feb 23, 2017
+
+Yesterday I talked with a lady. I did not write down her name because I could not find my pen. She is a mother of two sons. We talked about games (her son took the second place in the Warcraft III competition), food (she even cooks chinese food, e.g. ma po tofu), sports (she was basketball player at high school) and many other things. She went to China at 1983 for her honey moon. During the trip, she visited some factories and many cities. At that time, there were a lot of bicycles and only a few cars. While we talking, she corrected me some pronunciation mistakes and show me how to express myself in the right way. I said to her that everyone want to be younger. She denied that. She told me that young people have to worry about a lot of things, such as how to find a job, whom to love, how to buy a house. I think she really enjoys her life in her cottage. Life should be simple. Unfortunately, I am the one to keep others live simple.
+
+***
+
 Feb 15, 2017
 
-Today I was picked by Shirley Taylor. She is a 84 years old lady who used to play piano as her career. One amazing thing is that her daughter is 35 years old now. She got 3 children and 5 grandchildren. And many of the grandchildren like skiing and her grandson even teaches ski lessons for young children. Then Nelson Freire joined us. She is a brazil girl who went to France for an internship. After that, she got a fellowship there and met her husband who was assgined to work in France by Canadian goverment. We talked about chinese history and some life things. For example, Nelson's child is fifteen months now, and they talk with three languages (French, Portuguese and English) in family. Well, it is very hard for the child to learn to speak now :) 
+Today I was picked by Shirley Taylor. She is a 84 years old lady who used to play piano as her career. One amazing thing is that her granddaughter is 35 years old now. She got 3 children and 5 grandchildren. And many of the grandchildren like skiing and her grandson even teaches ski lessons for young children. Then Nelson Freire joined us. She is a brazil girl who went to France for an internship. After that, she got a fellowship there and met her husband who was assgined to work in France by Canadian goverment. We talked about chinese history and some life things. For example, Nelson's child is fifteen months now, and they talk with three languages (French, Portuguese and English) in family. Well, it is very hard for the child to learn to speak now :) 
 
 ***
 
