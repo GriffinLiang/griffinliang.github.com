@@ -12,6 +12,12 @@ I write this post to memory the life living in Ottawa.
 
 #### My experience in English Studying Group ####
 
+March 1, 2017
+
+This woman is full of passion and optimistic for life. She was born in India. For the future of all the children, her father decided to move to Canada which was a very open country at that time. Absolutely, Indian people are hard working and smart. Many of her family got the fellowship of universities (e.g. Cornell, Berkeley) in the US. She got two sons and two daughters. We talked about the life for old people. From our conversation, I can see that parents usually prefer to live with their children if possible. She told me her husband which is so kind and gentleman. He always scarifies himself for people. However, life seems to make a joke on him. This kind man suffer from dementia when he turned older. She comes to see him almost every day. What is love? The story besides you can give you the answer. Best regards to both of you.
+
+***
+
 Feb 23, 2017
 
 Yesterday I talked with a lady. I did not write down her name because I could not find my pen. She is a mother of two sons. We talked about games (her son took the second place in the Warcraft III competition), food (she even cooks chinese food, e.g. ma po tofu), sports (she was basketball player at high school) and many other things. She went to China at 1983 for her honey moon. During the trip, she visited some factories and many cities. At that time, there were a lot of bicycles and only a few cars. While we talking, she corrected me some pronunciation mistakes and show me how to express myself in the right way. I said to her that everyone want to be younger. She denied that. She told me that young people have to worry about a lot of things, such as how to find a job, whom to love, how to buy a house. I think she really enjoys her life in her cottage. Life should be simple. Unfortunately, I am the one to keep others live simple.
