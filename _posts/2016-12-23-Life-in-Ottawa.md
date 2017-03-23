@@ -12,7 +12,14 @@ I write this post to memory the life living in Ottawa.
 
 #### My experience in English Studying Group ####
 
+March 22, 2017
+
+I talked with Danielle today. And thank her for giving us a cup of mapple syrup. It tastes goood. During our conversation, we talked about the animals, such as bear, moose, salmon and so on. She is full of energy. Since we know each other before, we did not talk about a lot of our basic information. She asked me whether young people know the history of China. Maybe it's time to read some books about that for all of us.
+
+***
+
 March 8, 2017
+
 I am very happy to have a conversation with Tom who is the husband of Jackie. I finally got her name. Tom got his Ph.D. degree from the University of Pennsylvania. His major is social system science. During his study, he spent a year and a half for the courses. Then he went back to Canada for working (which is very helpful for his Ph.D. studying). He even made his thesis published as a book. After that, he opened up his own consultant. We talked about the cook, movies (La-La-Land), sports and trip. And I think he is a very genius man. We focused on the methodology of thinking and learning. (60% knowledge from work, 10% knowledge from communication with the others, and 20% knowledge from school.) One thing he told me is people speaking more than their writing and people knowing more than their speaking. That means communicating with people is more efficient than reading for acquiring knowledge. And you'd better ask people questions than just learning to them. At last, we talked about the types of changes which are 'simple', 'complicated' (e.g. space rocket), and complex (e.g. raise a baby). What a scientist! We met some girls from south Korea. They even know the pronunciation of Korea in Chinese.
 
 ***
