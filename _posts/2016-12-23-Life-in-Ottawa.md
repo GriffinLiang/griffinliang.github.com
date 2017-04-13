@@ -14,7 +14,7 @@ I write this post to memory the life living in Ottawa.
 
 April 12, 2017
 
-Mo is a strong woman. The flower on her coat is for remeberring her son. People are unique and they all have their beautiful life.
+Mo is a strong woman. The flower on her coat is for remembering her son. People are unique and they all have their beautiful lives.
 
 ***
 
