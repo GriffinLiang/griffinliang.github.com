@@ -12,6 +12,12 @@ I write this post to memory the life living in Ottawa.
 
 #### My experience in English Studying Group ####
 
+April 12, 2017
+
+Mo is a strong woman. The flower on her coat is for remeberring her son. People are unique and they all have their beautiful life.
+
+***
+
 April 5, 2017
 
 Eva has been to more than 129 countries. She got her PhD. in New York University. She also has her own consultant business. Right now, she works for ICAO (International Civil Aviation Organization) of UN. She told me a few tips on how to solve problems efficiently. One point is to think in a logic way and the other is to express yourself correctly. Logic way means you do not need to be creative at first. What you need is to give a proper pipeline (A->B->C) instead of (A->C->B->C). Expressing also help you think things clearly and you'd better not use jargons very often. The most important thing is she love her job and feel excited on keep solving problems and giving ideas. She is great. 
