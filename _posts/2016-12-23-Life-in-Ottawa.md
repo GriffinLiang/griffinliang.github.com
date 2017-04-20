@@ -12,6 +12,12 @@ I write this post to memory the life living in Ottawa.
 
 #### My experience in English Studying Group ####
 
+April 19, 2017
+
+Bill is going to celebrate his 80 birthday in the next month. He was born in a family of 22 people in both his mother and father side. His mother's family came to Canada from French 400 years ago. His father's family came from Scotland 200 years ago. He spent 8 years for two degrees of commerce and lawyer. We talked about house price in both China and Canada. He told me that he bought his first house when he was 45. He and his wife who is a professor separately paid the bill. So he is joking that I should also find a wife whose job is a professor. At the end of our conversation, he told me to he likes drinking Tsingtao Beer instead of Canadian beer. Wow, I am proud of my hometown. 
+
+***
+
 April 12, 2017
 
 Mo is a strong woman. The flower on her coat is for remembering her son. People are unique and they all have their beautiful lives.
