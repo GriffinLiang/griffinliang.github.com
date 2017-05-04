@@ -12,6 +12,10 @@ I write this post to memory the life living in Ottawa.
 
 #### My experience in English Studying Group ####
 
+May 3, 2017
+Bruce who was a civil engineer now becomes a writer. Enjoy his stories on the website [oldlayabout](https://oldlayabout.wordpress.com/) and [Old Ottawa South Community Association](http://www.oldottawasouth.ca/). His family came to Canada from Scotland because the old government occupied the land of people for industrial revolution. He likes traveling to strange places which he is not familiar with. He told me people are kind everywhere and do not need the worry what has not come yet. It is very important to visit some new places because this may change the way you live. Meeting new people and knowing new things is good for all of us. Remember to be an interesting person.
+
+
 April 26, 2017
 
 I talked to Eva again. She gave me a further explanation of her career. The difference of social and economic situation (How to apply the medical knowledge from Canada to Africa.) And she told me her solution for the gender problem in ICAO. Keep learning new things and changing the way you think. As suggested by Eva, I think I will buy a bike to explore the city.
