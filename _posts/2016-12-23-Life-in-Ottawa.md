@@ -14,7 +14,7 @@ I write this post to memory the life living in Ottawa.
 
 May 10, 2017
 
-Beth is short for Elizabeth. We talk about the university entrance exam in China and the daily life in Beijing. She is very good at talking and curious about many things. During our talking, I can alway see her smiles. Though life may not be as nice as it seems to be, we should have the courage to take it on. At last, she even taught me how to approach a girl. "Do you want a cup of coffe?" :) 
+Beth is short for Elizabeth. We talk about the university entrance exam in China and the daily life in Beijing. She is very good at talking and curious about many things. During our talking, I can alway see her smiles. Though life may not be as nice as it seems to be, we should have the courage to take it on. At last, she even taught me how to approach a girl. "Do you want a cup of coffee?" :) 
 
 May 3, 2017
 
