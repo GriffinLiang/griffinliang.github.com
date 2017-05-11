@@ -12,7 +12,12 @@ I write this post to memory the life living in Ottawa.
 
 #### My experience in English Studying Group ####
 
+May 10, 2017
+
+Beth is short for Elizabeth. We talk about the university entrance exam in China and the daily life in Beijing. She is very good at talking and curious about many things. During our talking, I can alway see her smiles. Though life may not be as nice as it seems to be, we should have the courage to take it on. At last, she even taught me how to approach a girl. "Do you want a cup of coffe?" :) 
+
 May 3, 2017
+
 Bruce who was a civil engineer now becomes a writer. Enjoy his stories on the website [oldlayabout](https://oldlayabout.wordpress.com/) and [Old Ottawa South Community Association](http://www.oldottawasouth.ca/). His family came to Canada from Scotland because the old government occupied the land of people for industrial revolution. He likes traveling to strange places which he is not familiar with. He told me people are kind everywhere and do not need the worry what has not come yet. It is very important to visit some new places because this may change the way you live. Meeting new people and knowing new things is good for all of us. Remember to be an interesting person.
 
 
