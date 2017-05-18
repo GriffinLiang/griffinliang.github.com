@@ -12,6 +12,10 @@ I write this post to memory the life living in Ottawa.
 
 #### My experience in English Studying Group ####
 
+May 17, 2017
+
+The futurist Calvin talked to me tonight. This man is full of energy and always wants to make things clear in his mind. The way he expresses ideas is very impressive to me. From him, you can see the real enthusiastic to reading and writing. He told me his family came from Ireland because of the famine. And his parents are very open minded. They always ask passengers to come to their house for a cup of coffee and talked with them. This made Calvin meet all kinds of people and know the world from different angles. He told me he is writing a book recently. Good luck to you!
+
 May 10, 2017
 
 Beth is short for Elizabeth. We talk about the university entrance exam in China and the daily life in Beijing. She is very good at talking and curious about many things. During our talking, I can alway see her smiles. Though life may not be as nice as it seems to be, we should have the courage to take it on. At last, she even taught me how to approach a girl. "Do you want a cup of coffee?" :) 
