@@ -12,6 +12,10 @@ I write this post to memory the life living in Ottawa.
 
 #### My experience in English Studying Group ####
 
+May 24, 2017
+
+I met George tonight. He said that what he wanted to do is to make me speak more. What a nice guy! He just knows what can interest me. He asked me a few questions about the ideal girlfriend in my mind. Beautiful? Hairstyle? Height? Weight? These kind of things are the most important to think clearly. His girlfriend is Chinese and he told me that she spoils his son a lot. Every time he told his girlfriend about this thing. She seemed not very happy. He is also an economist like Haig. Because of his girlfriend, he must be very interested in Chinese culture. That's fine.
+
 May 17, 2017
 
 The futurist Calvin talked to me tonight. This man is full of energy and always wants to make things clear in his mind. The way he expresses ideas is very impressive to me. From him, you can see the real enthusiastic to reading and writing. He told me his family came from Ireland because of the famine. And his parents are very open minded. They always ask passengers to come to their house for a cup of coffee and talked with them. This made Calvin meet all kinds of people and know the world from different angles. He told me he is writing a book recently. Good luck to you!
