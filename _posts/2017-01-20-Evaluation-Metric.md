@@ -19,7 +19,7 @@ The x-axis and y-axis of the above figure is calcuated as:
 
 Therefore, the more the curve near the above left point, the better performance the classifier achieves.
 
-既然已经这么多评价标准，为什么还要使用ROC和AUC呢？因为ROC曲线有个很好的特性：当测试集中的正负样本的分布变化的时候，ROC曲线能够保持不变。在实际的数据集中经常会出现类不平衡（class imbalance）现象，即负样本比正样本多很多（或者相反），而且测试数据中的正负样本的分布也可能随着时间变化。下图是ROC曲线和Precision-Recall曲线[^5]的对比。
+既然已经这么多评价标准，为什么还要使用ROC和AUC呢？因为ROC曲线有个很好的特性：当测试集中的正负样本的分布变化的时候，ROC曲线能够保持不变。在实际的数据集中经常会出现类不平衡（class imbalance）现象，即负样本比正样本多很多（或者相反），而且测试数据中的正负样本的分布也可能随着时间变化。下图是ROC曲线和Precision-Recall曲线[2]的对比。
 
 ![Image of Eval Metric](../img/170120_imbalance_comp.jpg)
 
@@ -27,10 +27,10 @@ Therefore, the more the curve near the above left point, the better performance 
 
 For class imbalance problem, ROC curves can present an overly optimistic view of an algorithm’s performance and Precision-Recall(PR) curves give a more informative picture of an algorithm’s performance.
 
-* Reference *：
+*Reference*：
 
-[1]: Davis, J., & Goadrich, M. (2006, June). The relationship between Precision-Recall and ROC curves. In Proceedings of the 23rd international conference on Machine learning (pp. 233-240). ACM.
-[2]: Fawcett, T. (2006). An introduction to ROC analysis. Pattern recognition letters, 27(8), 861-874.
+[1] Davis, J., & Goadrich, M. (2006, June). The relationship between Precision-Recall and ROC curves. In Proceedings of the 23rd international conference on Machine learning (pp. 233-240). ACM.
+[2] Fawcett, T. (2006). An introduction to ROC analysis. Pattern recognition letters, 27(8), 861-874.
 
 ### F1 score ###
 
