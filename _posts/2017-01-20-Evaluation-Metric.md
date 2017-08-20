@@ -25,6 +25,13 @@ Therefore, the more the curve near the above left point, the better performance 
 
 在上图中，(a)和(c)为ROC曲线，(b)和(d)为Precision-Recall曲线。(a)和(b)展示的是分类其在原始测试集（正负样本分布平衡）的结果，(c)和(d)是将测试集中负样本的数量增加到原来的10倍后，分类器的结果。可以明显的看出，ROC曲线基本保持原貌，而Precision-Recall曲线则变化较大。
 
+For class imbalance problem, ROC curves can present an overly optimistic view of an algorithm’s performance and Precision-Recall(PR) curves give a more informative picture of an algorithm’s performance.
+
+* Reference *：
+
+[1]: Davis, J., & Goadrich, M. (2006, June). The relationship between Precision-Recall and ROC curves. In Proceedings of the 23rd international conference on Machine learning (pp. 233-240). ACM.
+[2]: Fawcett, T. (2006). An introduction to ROC analysis. Pattern recognition letters, 27(8), 861-874.
+
 ### F1 score ###
 
 F1 score is a harmonic mean of precision and recall. $$F_1=2\cdot\frac{precision \cdot recall}{precision+recall}$$
