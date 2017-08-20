@@ -30,6 +30,7 @@ For class imbalance problem, ROC curves can present an overly optimistic view of
 *Reference*：
 
 [1] Davis, J., & Goadrich, M. (2006, June). The relationship between Precision-Recall and ROC curves. In Proceedings of the 23rd international conference on Machine learning (pp. 233-240). ACM.
+
 [2] Fawcett, T. (2006). An introduction to ROC analysis. Pattern recognition letters, 27(8), 861-874.
 
 ### F1 score ###
