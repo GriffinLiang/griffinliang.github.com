@@ -22,6 +22,10 @@ Jun 7, 2017
 
 A few weeks ago, I went bicycling with Martin. This week, we met with each other again. He told me something about how he used to work as a lawyer. And I told him why I want to learn English well. He gave the same idea that English comes from different languages such as Latin, French, and German. We also exchanged the ideas of being a visitor to a country where people speak the language you do not speak. He said it is fine. You just can not do things in a rush and simple things get complicated. Let's see the pic from us. :)
 
+![Image of BIKE TOUR 1](../img/Bike1.jpg)
+
+![Image of BIKE TOUR 2](../img/Bike2.jpg)
+
 May 31, 2017
 
 Michael is the third lawyer that I have met in the English conversation group. He is also a man with full of energy. First, we introduced ourselves to each other and then he asked me what I wanted to talk. I told him what does he think of his job since I am really curious about what the daily life of being a layer. However, from his description, I know a lawyer is not always to be in a court as usually shown on TV. He just helps the government to make progress. I also ask him how he found his wife. He described it very simple. They knew each other from work and he thought her accent is very attractive. When the girl moved to Halifax for a promotion, he gave up his job and followed her. He did not show any unpleasant emotions for this because he said the job was boring. In fact, it doubts whether he thought in that way. For me, I turn to understand that love is self-sacrifice. Try to make your partner happy!
