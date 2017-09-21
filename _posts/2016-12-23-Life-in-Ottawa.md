@@ -22,9 +22,9 @@ Jun 7, 2017
 
 A few weeks ago, I went bicycling with Martin. This week, we met with each other again. He told me something about how he used to work as a lawyer. And I told him why I want to learn English well. He gave the same idea that English comes from different languages such as Latin, French, and German. We also exchanged the ideas of being a visitor to a country where people speak the language you do not speak. He said it is fine. You just can not do things in a rush and simple things get complicated. Let's see the pic from us. :)
 
-![Image of BIKE TOUR 1](../img/Bike1.jpg)
+![Image of BIKE TOUR 1](../img/Bike1.jpeg)
 
-![Image of BIKE TOUR 2](../img/Bike2.jpg)
+![Image of BIKE TOUR 2](../img/Bike2.jpeg)
 
 May 31, 2017
 
