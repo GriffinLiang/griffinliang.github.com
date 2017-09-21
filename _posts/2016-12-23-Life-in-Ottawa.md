@@ -10,7 +10,13 @@ subtitle: Feeling
 I write this post to memory the life living in Ottawa.
 
 
-#### My experience in English Studying Group ####
+#### My experience in English Conversation Group ####
+
+Sep 20, 2017
+
+Martin knew that I will go back to China this week, so he invited me to have dinner together yesterday. He is not able to come to ECG as today is the Jewish New Year. Well, it seems to be the last chance to be a participant of ECG. I talk to Janice jointly with two Chinese people that I knew before. We find some topics that we are all interested in. For example, the most embarrassing time that happens to you, the pets that you own, reading English books or tv series and so on. If you can find the appropriate topics, you will never be afraid to have a conversation with the other person. When I left the room, Mo came to talk to me and ask when I will go back. After telling her that I will leave this Saturday, she gave me the best wishes. When I was just leaving the building, Jane stopped me and said goodbye to me. I was really moved. During the whole year living in Ottawa, what I learned most is to be a nice person and take care of the others as much as you can. I will miss you all!
+
+![Image of ECG](../img/ECG.jpg)
 
 Jun 7, 2017
 
