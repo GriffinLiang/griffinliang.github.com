@@ -27,7 +27,7 @@ capture simultaneously ten very different visual domains and measures their abil
 to recognize well uniformly
 
 ##### Conclusion:
-把一小部分参数变为domain-specific, 所以选择1*1卷积作为入口点。具体来讲，在普通的3*3卷积后面加入domain-specific的1*1卷积，因此domain之间share的参数是specific的9倍。感觉对于一篇NIPS来讲，本文提出的问题可能更重要一些，但确实很缺乏应用场景，比如把ImageNet跟MNIST结合起来学习有多大的意义？方法比较简单从实验来看也比较有效，可以考虑实现一下。
+把一小部分参数变为domain-specific, 所以选择1\*1卷积作为入口点。具体来讲，在普通的3\*3卷积后面加入domain-specific的1\*1卷积，因此domain之间share的参数是specific的9倍。感觉对于一篇NIPS来讲，本文提出的问题可能更重要一些，但确实很缺乏应用场景，比如把ImageNet跟MNIST结合起来学习有多大的意义？方法比较简单从实验来看也比较有效，可以考虑实现一下。
 
 ---
 
