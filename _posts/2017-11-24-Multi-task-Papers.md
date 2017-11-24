@@ -21,6 +21,7 @@ shared representation of the data.
 ##### Performance: 
 Individual tasks in standard benchmarks can be improved first by sharing features between them and then, more significantly, by integrating their solutions in the common representation.
 - Object classification, detection and part detection results in the PASCAL VOC 2010
+
     |Method | classification | object-detection | part-detection |
     | ------ | ------ | ------ | ------ | 
     | Independent | 76.4 | 55.5 | 37.3 | 
