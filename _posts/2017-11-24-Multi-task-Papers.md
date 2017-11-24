@@ -9,9 +9,8 @@
 ##### Background
 - A major advantage of natural intelligences: they work well for all perceptual problems together, solving them efficiently and coherently in an integrated manner.
 -  Two questions:
-
--- whether deep neural networks can learn universal image representations, useful not only for a single task but for all of them.
--- how the solutions to the different tasks can be integrated in this framework.
+    - whether deep neural networks can learn universal image representations, useful not only for a single task but for all of them.
+    - how the solutions to the different tasks can be integrated in this framework.
 
 ##### Method (Multinet)
 - Deep image features are shared between tasks.
