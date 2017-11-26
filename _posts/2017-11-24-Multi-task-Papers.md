@@ -6,11 +6,12 @@
 
 #### 2017_CVPR_UberNet : Training a ‘Universal’ Convolutional Neural Network for Low-, Mid-, and High-Level Vision using Diverse Datasets and Limited Memory
 
-这篇文章的核心内容是把一些底层、中层和高层的任务同时进行训练。它的主要思想是：把所有的任务都都归纳到同一种一种结构，因为有些任务需要使用底层的卷积特征，而有些任务需要高层的卷积特征，所以该方法把网络所有层的输出都作为输入，然后让这些任务自动选择使用哪些特征。除此之外，这个方法的弊端是即便数据集中没有所有的任务标注，该网络也还是要进行所有任务的训练，没有标注的任务权重损失设为0。还有是需要占用比较大的显存，但作者给出了一些方法解决这个问题。从实验上来看，将所有任务统一训练有时候并不能比一些单任务的方法好，比如table (6)的语义分割结果，因为这些任务虽然相关但有时候也需要一些特殊的处理，统一到一个框架就势必要舍弃一些特殊的操作。
+这篇文章的核心内容是把一些底层、中层和高层的任务同时进行训练。它的主要思想是：把所有的任务都都归纳到同一种结构，因为有些任务需要使用底层的卷积特征，而有些任务需要高层的卷积特征，所以该方法把网络所有层的输出都作为输入，然后让这些任务自动选择使用哪些特征。除此之外，这个方法的弊端是即便数据集中没有所有的任务标注，该网络也还是要进行所有任务的训练，没有标注的任务权重损失设为0。还有是需要占用比较大的显存，但作者给出了一些方法解决这个问题。从实验上来看，将所有任务统一训练有时候并不能比一些单任务的方法好，比如table (6)的语义分割结果，因为这些任务虽然相关但有时候也需要一些特殊的处理，统一到一个框架就势必要舍弃一些特殊的操作。
 
 #### 2017_NIPS_Learning multiple visual domains with residual adapters
 
 ##### Background
+
 - Learn data representations that work well for many different types of problems and data.
     - The first challenge is to extract from a given image diverse information, such as image-level labels, semantic segments, object bounding boxes, object contours, occluding boundaries, vanishing points, etc. 
     - The second aspect is to model simultaneously many different visual domains, such as
@@ -18,6 +19,7 @@ Internet images, characters, glyph, animal breeds, sketches, galaxies, planktons
 - A high degree of parameter sharing while maintaining or even improving the accuracy of domain-specific representations.
 
 ##### Method (multivalent neural network)
+
 - Reconfigure a deep neural network on the fly to work on different domains as needed.
     - Learning to learn: learn neural networks that predict, in a data-dependent manner, the parameters of another.
     - We note that linearly parametrizing a filter bank is the same as introducing a new, intermediate convolutional layer in the network. The linear combination is domain-specific.
@@ -31,6 +33,7 @@ capture simultaneously ten very different visual domains and measures their abil
 to recognize well uniformly
 
 ##### Conclusion:
+
 把一小部分参数变为domain-specific, 所以选择1\*1卷积作为入口点。具体来讲，在普通的3\*3卷积后面加入domain-specific的1\*1卷积，因此domain之间share的参数是specific的9倍。感觉对于一篇NIPS来讲，本文提出的问题可能更重要一些，但确实很缺乏应用场景，比如把ImageNet跟MNIST结合起来学习有多大的意义？方法比较简单从实验来看也比较有效，可以考虑实现一下。
 
 ---
