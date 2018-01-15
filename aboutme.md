@@ -8,6 +8,8 @@ My name is Kongming Liang. I am an PhD student of **ICT@UCAS**. My research focu
 
 ### Publications
 
+- Kongming Liang, Yuhong Guo, Hong Chang, Xilin Chen. Visual Relationship Detection with Deep Structural Ranking. AAAI. 2018 
+
 - Kongming Liang, Yuhong Guo, Hong Chang, Xilin Chen. Incomplete Attribute Learning with auxiliary labels. IJCAI. 2017 
 
 - Kongming Liang, Hong Chang, Shiguang Shan, Xilin Chen. Attribute Conjunction Learning with Recurrent Neural Network. ECML. 2016
