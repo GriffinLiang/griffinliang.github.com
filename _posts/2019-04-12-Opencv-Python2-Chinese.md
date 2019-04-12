@@ -26,7 +26,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 #coding=utf-8
 def cv2ImgAddText(img, text, left, top, textColor=(0, 255, 0), textSize=20):
-    if (isinstance(img, np.ndarray)):  #ÅÐ¶ÏÊÇ·ñOpenCVÍ¼Æ¬ÀàÐÍ
+    if (isinstance(img, np.ndarray)):  #判断是否OpenCV图片类型
         print img.dtype, img.shape
         img = Image.fromarray(cv2.cvtColor(img.astype(np.uint8), cv2.COLOR_BGR2RGB))
     draw = ImageDraw.Draw(img)
